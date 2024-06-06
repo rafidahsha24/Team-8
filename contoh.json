@@ -1,0 +1,6 @@
+[
+    {"name": "John Doe", "age": 16, "grade": "10th", "city": "New York"},
+    {"name": "Jane Smith", "age": 17, "grade": "11th", "city": "San Francisco"},
+    {"name": "Peter Johnson", "age": 15, "grade": "9th", "city": "Chicago"},
+    {"name": "Emily Davis", "age": 18, "grade": "12th", "city": "Miami"}
+]

@@ -1,0 +1,200 @@
+/* Mengatur box-sizing untuk semua elemen */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;  
+}
+
+aside {
+    width: 15vw;
+    height: 100vh;
+    background-color: #add8e6;;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+.title-dashboard {
+    width: 70%;
+    text-align: center;
+}
+
+.dropdown {
+    width: 15%;
+    margin : 3px;
+}
+
+.hasil {
+    border-style: solid;
+    border-width: 1px;
+}
+
+main {
+    flex: 1;
+    margin-left: 15vw;
+    background-color: #DFE9F5;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.main-top {
+    display: flex;
+    width: 100%;
+    background-color: #f7de3b; /* Warna background pada head */
+    border-radius: 10px; /* Ujung kotak tumpul */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-top, .title-dashboard {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.main-skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.main-skills .card {
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-skills, .title1, .title2 {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: medium;
+}
+
+.diagram, canvas {
+    display: flex;
+    justify-content: center;
+}
+
+.title3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+.main-course {
+    margin-top: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+.course-box {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 30px 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 3rem;
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+
+.logo:hover {
+    transform: scale(1.55, 1.55);
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
+}
+
+ul li {
+    padding: 20px 0;
+}
+
+ul li span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+img, canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    background: #f7de3b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+h1 {
+    transition-duration: 1s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+
+h1:hover {
+    transform: scale(1.15, 1.15);
+}

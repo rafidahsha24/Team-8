@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Data Analytics Team 8</title>
+    <!-- CSS DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"/>
+    <!-- File CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <aside>
+        <ul>
+            <li class="logo">
+                <img src="images/revou.png" alt="Logo">
+                <span class="nav-item">TEAM 8</span>
+            </li>
+            <li><a href="index.html">
+                <span class="nav-item">Dashboard</span>
+            </a></li>
+            <li><a targer="_blank" href="#">
+                <span class="nav-item">Team 8 Member</span>
+            </a></li>
+            <li><a target="_blank" href="https://drive.google.com/file/d/1btike60_HG_U6bRiZ8aAl2rIWNJu33VM/view?usp=sharing">
+                <span class="nav-item">Presentation Deck DA</span>
+            </a></li>
+            <li><a target="_blank" href="">
+                <span class="nav-item">Presentation Deck SE</span>
+            </a></li>
+            <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1AcXTySWJLXkOejvNgQBNVb1n871FAEV9-tUt7o0lXaY/edit?usp=sharing">
+                <span class="nav-item">Checklist Capstone Project DA</span>
+            </a></li>
+            <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1z04GcZMOwqx3GGy2oa9mZ6KJWxkb1BSBPx_itQ5Mr6Q/edit?usp=sharing">
+                <span class="nav-item">Checklist Capstone Project SE</span>
+            </a></li>
+        </ul>
+    </aside>
+    <main>
+        <div class="main-top">
+        
+            <h1 class="title-dashboard">Dashboard Team 8 Section Palembang</h1>
+            
+            <div class="dropdown">
+                <label for="">Choose Month :</label>
+                <select name="" id="filter-month">
+                    <option value="January" selected>January</option>
+                    <option value="February" >February</option>
+                    <option value="March" >March</option>
+                    <option value="April" >April</option>
+                    <option value="May" >May</option>
+                    <option value="June" >June</option>
+                    <option value="July" >July</option>
+                </select>
+                <p>Total Revenue :</p>
+                <p class="hasil" style="background-color: white;" id="TotalRevenue">0</p>
+            </div>
+
+            <div class="dropdown">
+                <label for="">Choose Month :</label>
+                <select name="" id="filter-month2">
+                    <option value="January" selected>January</option>
+                    <option value="February" >February</option>
+                    <option value="March" >March</option>
+                    <option value="April" >April</option>
+                    <option value="May" >May</option>
+                    <option value="June" >June</option>
+                    <option value="July" >July</option>
+                </select>
+                <p>Total Order :</p>
+                <p class="hasil" style="background-color: white;" id="TotalOrder">0</p>
+            </div> 
+        </div>
+
+        <div class="main-skills">
+            <div class="card">
+                <h1 class="title1">Bicycle Sales Chart 2014</h1>
+
+                <div style="width: 400px">
+                    <canvas id="chartRevenueOrder"></canvas>
+                    <canvas id="chartRevenue" style="display: none"></canvas>
+                    <canvas id="chartOrder" style="display: none"></canvas>
+                </div>
+            </div>
+
+            <div class="card">
+                <h1 class="title2">Bicycle Sales Table 2014</h1>
+
+                <div class="table-container">
+                    <table id="data-table" class="display">
+                        <thead>
+                            <tr>
+                                <th>Bulan</th>
+                                <th>Total Revenue</th>
+                                <th>Total Order Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data Total Revenue Order Quantity 2014 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <section class="main-course">
+            <div class="course-box">
+                <h1 class="title3">Bicycle Part Sales Chart 2014</h1>
+
+                <div class="diagram" style="width: 1000px">
+                    <canvas id="sub-category"></canvas>
+                </div>
+
+            </div>
+        </section>
+        <footer>
+            <p style="text-align: center;">Copyright Team 8 Section Palembang 2024</p>
+        </footer>
+    </main>
+    <!-- CDN ChartJs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- CDN Plugin Zoom ChartJs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"></script>
+    <!-- CDN JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- DataTables JavaScript -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!-- File JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

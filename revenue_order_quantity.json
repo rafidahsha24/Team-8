@@ -1,0 +1,43 @@
+[{
+  "total_order_quantity": "54144",
+  "total_revenue": "1218909",
+  "Tahun": "2014",
+  "Bulan": "January",
+  "bulan_1": "1"
+}, {
+  "total_order_quantity": "51597",
+  "total_revenue": "1200427",
+  "Tahun": "2014",
+  "Bulan": "February",
+  "bulan_1": "2"
+}, {
+  "total_order_quantity": "54465",
+  "total_revenue": "1307441",
+  "Tahun": "2014",
+  "Bulan": "March",
+  "bulan_1": "3"
+}, {
+  "total_order_quantity": "58038",
+  "total_revenue": "1369162",
+  "Tahun": "2014",
+  "Bulan": "April",
+  "bulan_1": "4"
+}, {
+  "total_order_quantity": "61260",
+  "total_revenue": "1543998",
+  "Tahun": "2014",
+  "Bulan": "May",
+  "bulan_1": "5"
+}, {
+  "total_order_quantity": "62711",
+  "total_revenue": "1535618",
+  "Tahun": "2014",
+  "Bulan": "June",
+  "bulan_1": "6"
+}, {
+  "total_order_quantity": "30365",
+  "total_revenue": "503868",
+  "Tahun": "2014",
+  "Bulan": "July",
+  "bulan_1": "7"
+}]
